@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>POWERCAM - Cámaras de Seguridad</title>
+    <style>
+        /* Estilos generales */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        section {
+            margin: 20px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+        }
+
+        footer {
+            text-align: center;
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+        }
+
+        /* Estilos específicos */
+        h1 {
+            font-size: 36px;
+        }
+
+        h2 {
+            font-size: 24px;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        li {
+            margin: 10px 0;
+        }
+
+        a {
+            text-decoration: none;
+            color: #0078d4;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .contact-info {
+            display: flex;
+            align-items: center;
+        }
+
+        .contact-info img {
+            width: 50px;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>POWERCAM - Cámaras de Seguridad</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="productos.html">Productos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <h2>Bienvenido a POWERCAM</h2>
+        <p>Descubre nuestras cámaras de seguridad de alta calidad.</p>
+    </section>
+
+    <section>
+        <h2>Productos</h2>
+        <ul>
+            <!-- Producto 1 -->
+            <li>
+                <h3>Producto 1</h3>
+                <p>Descripción del producto 1.</p>
+                <a href="producto1.html">Ver más</a>
+            </li>
+            <!-- Producto 2 -->
+            <li>
+                <h3>Producto 2</h3>
+                <p>Descripción del producto 2.</p>
+                <a href="producto2.html">Ver más</a>
+            </li>
+            <!-- Repite esta estructura para los demás productos -->
+            <!-- Producto 3 -->
+            <li>
+                <h3>Producto 3</h3>
+                <p>Descripción del producto 3.</p>
+                <a href="producto3.html">Ver más</a>
+            </li>
+            <!-- Producto 4 -->
+            <li>
+                <h3>Producto 4</h3>
+                <p>Descripción del producto 4.</p>
+                <a href="producto4.html">Ver más</a>
+            </li>
+            <!-- Producto 5 -->
+            <li>
+                <h3>Producto 5</h3>
+                <p>Descripción del producto 5.</p>
+                <a href="producto5.html">Ver más</a>
+            </li>
+            <!-- Producto 6 -->
+            <li>
+                <h3>Producto 6</h3>
+                <p>Descripción del producto 6.</p>
+                <a href="producto6.html">Ver más</a>
+            </li>
+            <!-- Producto 7 -->
+            <li>
+                <h3>Producto 7</h3>
+                <p>Descripción del producto 7.</p>
+                <a href="producto7.html">Ver más</a>
+            </li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Contacto</h2>
+        <p>¿Necesitas más información? ¡Contáctanos!</p>
+        <div class="contact-info">
+            <img src="correo.png" alt="Correo electrónico">
+            <p>Correo: info@powercam.com</p>
+        </div>
+        <div class="contact-info">
+            <img src="whatsapp.png" alt="WhatsApp">
+            <p>WhatsApp: +123456789</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 POWERCAM - Todos los derechos reservados</p>
+    </footer>
+</body>
+</html>
